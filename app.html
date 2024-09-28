@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="API">
+    <div class="container">🌞 This demo needs an OpenWeather API key to work.
+      <a target="_blank" href="https://home.openweathermap.org/users/sign_up">get yours here for free!</a>
+    </div>
+  </div>
+  <section class="top-banner">
+    <div class="container">
+      <h1 class="heading">Simple Weather App</h1>
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus>
+        <button type="submit">Submit</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <div class="container">
+      <small>
+        Made with <span>❤</span> by <a target="_blank" href="http://georgemartsoukos.com/">George Martsoukos</a>
+      </small>
+    </div>
+  </footer>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
